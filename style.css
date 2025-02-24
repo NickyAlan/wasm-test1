@@ -1,0 +1,32 @@
+*, *::after, *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    font-family: consolas;
+}
+
+input {
+    width: 20ch;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 22px;
+}
+
+span {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#result {
+    font-size: 25px;
+}
